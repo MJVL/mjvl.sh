@@ -13,6 +13,7 @@ body {
 }
 
 body {
+    color: white;
     align-items: center;
     display: flex;
     font-family: 'Nanum Gothic', sans-serif;
@@ -20,11 +21,6 @@ body {
     justify-content: center
 }
 
-*,
-*::before,
-*::after {
-    box-sizing: inherit
-}
 
 a,
 a:link,
