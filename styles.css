@@ -1,8 +1,36 @@
 html {
     box-sizing: border-box;
-    background-color: #5A85E7
+    background-color: #2D2B2E
 }
 
+/*
+    #ED6C89 #B4DA82 #F9D878 #EF9C70 #A89FEC #90DAE6
+*/
+
+.red {
+    color: #ED6C89;
+}
+
+.green {
+    color: #B4DA82;
+}
+
+.yellow {
+    color: #F9D878;
+}
+
+.orange {
+    color: #EF9C70;
+}
+
+.purple {
+    color: #A89FEC;
+}
+
+.blue {
+    color: #90DAE6;
+}
+   
 html,
 body {
     height: 100%;
