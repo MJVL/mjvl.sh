@@ -1,32 +1,32 @@
-html {
-    box-sizing: border-box;
-    background-color: #2D2B2E
-}
-
 .red {
     color: #ED6C89;
-}
-
-.green {
-    color: #B4DA82;
-}
-
-.yellow {
-    color: #F9D878;
 }
 
 .orange {
     color: #EF9C70;
 }
 
-.purple {
-    color: #A89FEC;
+.yellow {
+    color: #F9D878;
+}
+
+.green {
+    color: #B4DA82;
 }
 
 .blue {
     color: #90DAE6;
 }
-   
+
+.purple {
+    color: #A89FEC;
+}
+
+html {
+    box-sizing: border-box;
+    background-color: #2D2B2E
+}
+
 html,
 body {
     height: 100%;
@@ -62,23 +62,20 @@ a.bump {
     line-height: 0
 }
 
-.pg-wrapper {
+.wrapper {
     padding: 1rem;
     position: relative
 }
 
-.tray {
-    fill: white;
-}
 @media screen and (min-width: 60rem) {
-    .pg-wrapper {
+    .wrapper {
         padding: 0;
         max-width: 40rem;
         margin: 0 auto
     }
 }
 
-.power-pitch .power-pitch-description {
+.about .about-content {
     color: #ffffff;
     font-size: 16px;
     
@@ -97,40 +94,30 @@ a.bump {
     }
 }
 
-.name-spelling {
-    font-size: 12px;
-    font-weight: bold
-}
-
-.social-links {
+.links {
     text-align: center;
     padding-left: 0;
     font-size: 13px;
     margin-top: 2rem
 }
 
-ul {
-    text-align: center;
-    list-style: none;
-}
-
-.social-links li {
+.links li {
     display: block;
     margin-bottom: 12px
 }
 
 @media screen and (min-width: 60rem) {
-    .social-links li {
+    .links li {
         display: inline-block;
         margin: 12px 24px 0 0;
     }
 }
 
-.social-links li a {
+.links li a {
     font-weight: bold
 }
 
-svg {
+.links svg {
     width: 25px;
     height: 25px;
     fill: white;
