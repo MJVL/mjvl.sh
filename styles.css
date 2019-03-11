@@ -109,21 +109,24 @@ a.bump {
     margin-top: 2rem
 }
 
+ul {
+    text-align: center;
+    list-style: none;
+}
+
 .social-links li {
     display: block;
-    padding: 1rem;
     margin-bottom: 12px
 }
 
 @media screen and (min-width: 60rem) {
     .social-links li {
-        display: block;
+        display: inline-block;
         margin: 12px 24px 0 0;
     }
 }
 
 .social-links li a {
-    background: #D5FFF5;
     font-weight: bold
 }
 
