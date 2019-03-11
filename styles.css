@@ -1,0 +1,140 @@
+html {
+    box-sizing: border-box;
+    background-color: #5A85E7
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    overflow: hidden
+}
+
+body {
+    align-items: center;
+    display: flex;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-weight: bold;
+    justify-content: center
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit
+}
+
+a,
+a:link,
+a:active {
+    color: #000;
+    font-weight: 600;
+    text-decoration: none
+}
+
+.skills {
+    color: white;
+    font-weight: 400;
+}
+
+a:hover {
+    color: #000
+}
+
+a.bump {
+    font-size: 1.5rem;
+    line-height: 0
+}
+
+.pg-wrapper {
+    padding: 1rem;
+    position: relative
+}
+
+.impact {
+    color: #154CCB;
+    font-weight: bold;
+}
+
+.tray {
+    fill: white;
+}
+@media screen and (min-width: 60rem) {
+    .pg-wrapper {
+        padding: 0;
+        max-width: 40rem;
+        margin: 0 auto
+    }
+}
+
+
+.power-pitch .power-pitch-description {
+    color: #ffffff;
+    font-size: 16px;
+    
+    line-height: 2;
+    margin: 0
+}
+
+.skills {
+    font-family: 'Nanum Gothic', sans-serif;
+     color: #ffffff;
+    font-size: 16px;
+    
+    line-height: 2;
+    margin: 0
+}
+
+
+.name {
+    display: block;
+    font-size: 2rem
+}
+
+@media screen and (min-width: 60rem) {
+    .name {
+        font-size: 3.9rem
+    }
+}
+
+.name-spelling {
+    font-size: 12px;
+    font-weight: bold
+}
+
+.social-links {
+    text-align: center;
+    padding-left: 0;
+    font-size: 13px;
+    margin-top: 2rem
+}
+
+.social-links li {
+    display: block;
+    padding: 5px;
+    margin-bottom: 12px
+}
+
+@media screen and (min-width: 60rem) {
+    .social-links li {
+        display: inline-block;
+        margin: 12px 24px 0 0
+    }
+}
+
+.social-links li a {
+    background: #D5FFF5;
+    font-weight: bold
+}
+
+.skills svg {
+    fill: white;
+    width: 25px;
+    height: 25px;
+}
+
+.skills li {
+    padding-bottom: 10px;
+}
