@@ -149,12 +149,8 @@ a.bump {
     font-weight: bold
 }
 
-.skills svg {
-    fill: white;
+svg {
     width: 25px;
     height: 25px;
-}
-
-.skills li {
-    padding-bottom: 10px;
+    fill: white;
 }
