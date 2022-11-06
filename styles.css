@@ -70,7 +70,7 @@ a.bump {
 @media screen and (min-width: 60rem) {
     .wrapper {
         padding: 0;
-        max-width: 40rem;
+        max-width: 42rem;
         margin: 0 auto
     }
 }
